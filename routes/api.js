@@ -175,7 +175,7 @@ Akhir Pesan Error
 
 router.use(favicon(__path + "/views/favicon.ico"));
 
-const listkey = ["Fxc7", "manogay"];
+const listkey = ["faheem", "manogay"];
 
 router.post("/apikey", async (req, res, next) => {
   const key = req.query.key;
@@ -1753,7 +1753,7 @@ router.get("/photooxy/smoke", async(req, res, next) => {
         status: true,
         code: 200,
         creator: `${creator}`,
-        result: data.url
+        result: data.jpg
       }
       res.json(result)
     })
